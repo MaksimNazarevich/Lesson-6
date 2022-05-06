@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'CircularStd-Book';
+	src: url('../fonts/CircularStd-Book.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/CircularStd-Book.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/CircularStd-Book.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/CircularStd-Book.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/CircularStd-Book.svg#overpass-extralight') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'circular-std-medium-500';
+	src: 
+		url('../fonts/circular-std-medium-500.ttf') format('truetype');
+		/* Safari, Android, iOS */
+	
+}
+
+
+@font-face {
+	font-family: 'CircularStd-Bold';
+	src: url('../fonts/CircularStd-Bold.eot');
+	/* IE 9 Compatibility Mode */
+	src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+		/* IE < 9 */
+		url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/CircularStd-Bold.woff') format('woff'),
+		/* Firefox >= 3.6, any other modern browser */
+		url('../fonts/CircularStd-Bold.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/CircularStd-Bold.svg#overpass-extralight') format('svg');
+	/* Chrome < 4, Legacy iOS */
+}
+
+
+body{
+	font-family: 'CircularStd-Book', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #5F5F5F;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.customes{
+	width: 1025px;
+	height: 894px;
+	margin: 0 208px 140px 207px;
+}
+
+.customes-top{
+	text-align: center;
+}
+
+.custome-top-title{
+	font-family: 'circular-std-medium-500';
+	font-size: 65px;
+	line-height: 82px;
+	color: #313131;
+	margin: 0 0 20px 0;
+}
+
+.customes-top-text{
+	font-size: 20px;
+	line-height: 25px;
+	color: #5F5F5F;
+	padding: 0 140px 0 140px;
+	margin: 0 0 20px 0;
+}
+
+.service{
+	text-align: left;
+	width: 508px;
+	height: 380px;
+	left: 207px;
+	
+}
+
+.servece-title{
+	font-style: normal;
+	font-size: 34px;
+	line-height: 130%;
+	margin: 0 0 20px 0;
+}
+.service-text{
+	line-height: 28px;
+	color: #5F5F5F;
+	margin: 0 0 20px 0;
+	
+}
+
+.customes-photo{
+	width: 468px;
+	height: 675px;
+	left: 764px;
+}
+
+.service-footer {
+	font-family: 'CircularStd-Bold';
+	line-height: 130%;
+	color: #313131;
+}
+
+.grey{
+	font-family: 'circular-std-medium-500';
+	line-height: 23px;
+	color: #B8B8B8;
+}
+
+
+
+
+
